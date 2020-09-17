@@ -10,8 +10,10 @@ while True:
     elif (direction == 'e') or (direction == 'E'):
         x += 1
     elif (direction == 's') or (direction == 'S'):
-        y += 1
+        y -= 1
+    #directions búið
     
+
 
 
 
