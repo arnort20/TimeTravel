@@ -5,33 +5,33 @@ while True:
     #hér kemur "You can travel"
     if x==1:
         if y == 1:
-            valid = "(N)orth"
+            valid = "(N)orth."
             val_input= 'n', 'N'
         elif y==2:
-            valid = "(N)orth or (E)ast or (S)outh"
+            valid = "(N)orth or (E)ast or (S)outh."
             val_input= 'n', 'N', 'e', 'E', 's', 'S'
         elif y==3:
-            valid = "(E)ast or (S)outh"
+            valid = "(E)ast or (S)outh."
             val_input= 'e', 'E', 's', 'S'
     elif x==2:
         if y == 1:
-            valid = "(N)orth"
+            valid = "(N)orth."
             val_input= 'n', 'N'
         elif y==2:
-            valid = "(W)est or (S)outh"
+            valid = "(S)outh or (W)est."
             val_input= 'w', 'W', 's', 'S'
         elif y==3:
-            valid = "(E)ast or (W)est"
+            valid = "(E)ast or (W)est."
             val_input=  'e', 'E', 'w', 'W'
     elif x==3:
         if y == 1:
             print("Victory!")
             break
         elif y==2:
-            valid ="(N)orth or (S)outh"
+            valid ="(N)orth or (S)outh."
             val_input= 'n','N','s','S'
         elif y==3:
-            valid ="(W)est or (S)outh"
+            valid ="(S)outh or (W)est."
             val_input= 'w', 'W', 's', 'S'
     print("You can travel:", valid)
 
